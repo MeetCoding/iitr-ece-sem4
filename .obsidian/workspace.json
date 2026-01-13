@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "c8772f6be1908739",
+    "type": "split",
+    "children": [
+      {
+        "id": "48525932b67e08b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "054afa81f3ea1eef",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app"
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Google Gemini"
+            }
+          },
+          {
+            "id": "7bf7cae5085d8f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Semester Details.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Semester Details"
+            }
+          },
+          {
+            "id": "64b36847c2acdb49",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Intern Resources/Internship_talk_EESS.pptx.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Internship_talk_EESS.pptx"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9308eda7f2240652",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2e904d78dfff39c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ff3378477e64d98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "322821eeb24dcdb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d059b17971fdf307",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "02b3462c92534c3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a996eb7de30daa7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7aa168d2c6f432bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "759f1054aedf696c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "807361e6e86665f9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2ac5d21a02ca8589",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e77b4398ee4bd0d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "62e3e514e3d5c816",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://gemini.google.com/app"
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Google Gemini"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 502.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5ff3378477e64d98",
+  "lastOpenFiles": [
+    "Intern Resources/Internship_talk_EESS.pptx.pdf",
+    "Untitled.md",
+    "Books",
+    "Semester Details.md",
+    "Intern Resources/Core ECE  Internship prep.pdf",
+    "Intern Resources/cp_vk/segmenttree_resources.pdf",
+    "Intern Resources/cp_vk/NumberTheoryquestions.pdf",
+    "Intern Resources/cp_vk/Number Theory.pdf",
+    "Intern Resources/cp_vk/Fenwick Tree.pdf",
+    "Intern Resources/cp_vk/DP theory .pdf",
+    "Intern Resources/cp_vk/cpResourcesVipul.pdf",
+    "Intern Resources/Intern-Placement Doc.pdf"
+  ]
+}
