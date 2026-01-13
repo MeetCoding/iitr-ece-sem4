@@ -17,5 +17,3 @@
 | EEE-101     | K Ogata - Modern Control Engineering<br>NS Nise - Control system Engineering                              |
 | ECC-202     | Simon Haykin - Communication Systems<br>Proakis - Digital Communication<br>Madhow - Digital Communication |
 |             |                                                                                                           |
-Let's see if this commits.
-
