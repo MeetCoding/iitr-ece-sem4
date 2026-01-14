@@ -7,7 +7,7 @@
 | EEE-101     | 25 MTE, 40 ETE, 30 Quiz/Tut, 5 Attendance                              |
 | SEO-101     | 20 MTE, 30 ETE, 10 Assignment, 10 Quiz, 10 Presentation, 10 Attendance |
 | ECC-202     | 30 MTE, 40 ETE, 15+15 Quiz                                             |
-| ECC-204     |                                                                        |
+| ECC-204     | 25 MTE, 45 ETE, 10 Tut, 10 Quiz (Surprise),                            |
 | DAI-101     |                                                                        |
 | DAE-101     |                                                                        |
 | ECT-107     |                                                                        |
