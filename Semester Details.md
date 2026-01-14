@@ -12,8 +12,10 @@
 | DAE-101     |                                                                                |
 | ECT-107     |                                                                                |
 
-| **Subject** | **Recommended Books**                                                                                     |
-| ----------- | --------------------------------------------------------------------------------------------------------- |
-| EEE-101     | K Ogata - Modern Control Engineering<br>NS Nise - Control system Engineering                              |
-| ECC-202     | Simon Haykin - Communication Systems<br>Proakis - Digital Communication<br>Madhow - Digital Communication |
-| ECC-204     |                                                                                                           |
+| **Subject** | **Recommended Books**                                                                                                                         |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| EEE-101     | K Ogata - Modern Control Engineering<br>NS Nise - Control system Engineering                                                                  |
+| ECC-202     | Simon Haykin - Communication Systems<br>Proakis - Digital Communication<br>Madhow - Digital Communication                                     |
+| ECC-204     | B Razavi - Deign of Analog CMOS integrated circuits<br>Jacob Baker - Analog Integrated Circuits<br>Sedra and Smith - Microelectronic Circuits |
+| DAE-101     | Professor PPT                                                                                                                                 |
+| DAI-101     | Professor PPT                                                                                                                                 |
