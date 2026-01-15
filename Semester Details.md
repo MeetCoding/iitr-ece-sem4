@@ -2,6 +2,8 @@
 - [Intern Resources](https://www.notion.so/2d195cd6da81806883b6dea79af8a3c1?v=2d195cd6da8180e9b5c7000c837d6b2e&p=2d895cd6da818072a5fecd652297a5d2&pm=s)
 - [ESP32 Course](https://lastminuteengineers.com/getting-started-with-esp32/)
 
+[View assembly instructions for C++ code](https://godbolt.org/)
+
 | **Subject** | **Marks Division**                                                             |
 | ----------- | ------------------------------------------------------------------------------ |
 | EEE-101     | 25 MTE, 40 ETE, 30 Quiz/Tut, 5 Attendance                                      |
