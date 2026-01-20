@@ -10,7 +10,7 @@
 | ECC-202     | 30 MTE, 40 ETE, 15+15 Quiz                                                     |
 | ECC-204     | 25 MTE, 45 ETE, 10 Tut, 10 Quiz (Surprise), 10 Attendance                      |
 | DAI-101     |                                                                                |
-| DAE-101     | 24% MTE, 49% ETE, 10% Projects, 12% HW,                                        |
+| DAE-101     | 24% MTE, 49% ETE, 10% Projects, 12% HW, 5% Attendnace (>75%)                   |
 | ECT-107     |                                                                                |
 
 | **Subject** | **Recommended Books**                                                                                                                         |
