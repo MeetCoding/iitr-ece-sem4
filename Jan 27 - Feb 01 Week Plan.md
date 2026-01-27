@@ -18,3 +18,7 @@
 - Control System Quiz
 	- Tutorial 1
 	- Notes
+
+***Timeline:***
+- Tue/Wed: EEE-101, Lab & ECC-204
+- Thu: SEO-101 & Lab
