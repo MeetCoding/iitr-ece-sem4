@@ -1,2 +1,3 @@
 ***Meet Shah, 24116051***
-# Learning EEG
+## How EEG Works?
+Electroencephalography 
