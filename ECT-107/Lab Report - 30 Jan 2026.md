@@ -6,4 +6,4 @@
  Charge due to individual neurons is too small to be detected, but the cluster of pyramidal neurons creates a significant measurable amount of charge.
 
 We can connect electrodes to any two distant points on the scalp and study the potential difference between the two points to understand the brain activity.
-In EEG, several such electrodes are connected and the potential difference can be measured with either a common reference electrode or can be measured between adjacent electrodes.
+In EEG, several such electrodes are connected and the potential difference can be measured with either a common reference electrode (Referential Montage) or can be measured between adjacent electrodes (Bipolar Montage).
