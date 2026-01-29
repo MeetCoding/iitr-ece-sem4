@@ -33,3 +33,9 @@ We can here clearly see the cutoff, linear/triode and saturation region.
 - For $V_{GS}=1.4V$, the graph is saturated at $V_{DS}=1V$
 Note that the values above are approximations and not exact.
 
+Repeating the experiment for PMOS:
+
+![[Pasted image 20260129170042.png]]
+
+We find similar cutoff voltage at about $0.5V$.
+
