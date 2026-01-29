@@ -28,4 +28,8 @@ Changing the DC Sweep values for $V_{GS}$ (now $[0V,0.8V,1.4V]$) and $V_{DS}$ (n
 ![[Pasted image 20260129164158.png]]
 
 We can here clearly see the cutoff, linear/triode and saturation region.
-For $V_{GS}=0V$, the transistor is in cutoff region.
+- For $V_{GS}=0V$, the transistor is in cutoff region.
+- For $V_{GS}=0.8V$, the graph is saturated at $V_{DS}=0.3V$
+- For $V_{GS}=1.4V$, the graph is saturated at $V_{DS}=1V$
+Note that the values above are approximations and not exact.
+
