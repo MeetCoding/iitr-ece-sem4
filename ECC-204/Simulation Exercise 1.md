@@ -73,4 +73,10 @@ By doing the same calculation as done previously for NMOS, we will get:
 - $\lambda_p = 0.0512$
 - $\mu_pC_{ox}=70 \mu A/V^2$
 
-The calculated values of $\lambda
+The calculated values of $\lambda$ and $K_p=\mu C_{ox}$ are nearly same to the values defined in the model file (slight variation due to calculation errors).
+
+```
+.model TSMC_NMOS NMOS(Level=1 Vto=0.45 KP=170u Lambda=0.05)
+.model TSMC_PMOS PMOS(Level=1 Vto=-0.45 KP=60u Lambda=0.05)
+```
+
