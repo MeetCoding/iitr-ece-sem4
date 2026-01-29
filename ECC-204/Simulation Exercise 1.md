@@ -55,10 +55,10 @@ Hence, we have two variables, $\mu_nC_{ox}$ and $\lambda$ and two equations from
 
 At same $V_{GS}$, $\dfrac{I_{D1}}{I_{D2}}=\dfrac{1+\lambda V_{DS1}}{1+\lambda V_{DS2}}$
 For $I_{D1}=81.32\mu A$ and $V_{DS1}=1.2V$
-For $I_{D1}=82.18\mu A$ and $V_{DS1}=1.4V$
+For $I_{D2}=82.18\mu A$ and $V_{DS2}=1.4V$
 Putting the values, we get, $\lambda = 0.0564$
 
 At same $V_{DS}$, $\sqrt{\dfrac{I_{D1}}{I_{D2}}}=\dfrac{V_{GS1}-0.45}{V_{GS2}-0.45}$
-For $I_{D1}=81.32\mu A$ and $V_{DS1}=1.2V$
-For $I_{D1}=82.18\mu A$ and $V_{DS1}=1.4V$
-Putting the values, we get, $\lambda = 0.0564$
+For $I_{D1}=11\mu A$ and $V_{GS1}=0.8V$
+For $I_{D2}=81.32\mu A$ and $V_{GS2}=1.4V$
+Putting the values, we get, $\dfrac{1}{2}\mu_nC_{ox}\dfrac{W}{L} = 0.0564$
