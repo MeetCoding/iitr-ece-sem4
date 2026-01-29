@@ -69,3 +69,6 @@ Marking values for PMOS, we get:
 | **V_DS** | $1.2V$        | $1.4V$        | $1.2V$       |
 | **V_GS** | $1.4V$        | $1.4V$        | $0.8V$       |
 
+By doing the same calculation as done previously for NMOS, we will get:
+- $\lambda_p = 0.0512$
+- $\mu_pC_{ox}=70 \mu A/V^2$
