@@ -60,4 +60,5 @@ Putting the values, we get, $\lambda = 0.0503$
 
 $\mu_nC_{ox}=\dfrac{2L}{W}\dfrac{I_D}{(V_{GS}-0.45)^2(1+0.0503V_{DS})}$
 We know, $I_D=452.26, V_{DS}=1.2V, V_{GS}=1.4V, L=0.18um, W=1um$
-Hence, we get, $\mu_nC_{ox}=1.7e-4$
+Hence, we get, $\mu_nC_{ox}=1.7e-4=170\mu A/V^2$
+
