@@ -92,3 +92,8 @@ We can create a common circuit containing both NMOS and PMOS so we can compare t
 We use the following formulas:
 - $g_m = \dfrac{2I_D}{V_{GS}-V_{Th}}$
 - $r_{ds}=\dfrac{2}{K_P\lambda (V_{GS}-V_{Th})^2}$
+
+| $V_{GS}=0.8V$ | $I_D$       | $K_P$          | $\lambda$ | $g_m$ | $r_{ds}$ |
+| ------------- | ----------- | -------------- | --------- | ----- | -------- |
+| NMOS          | $60\mu A$   | $170\mu A/V^2$ | 0.05      |       |          |
+| PMOS          | $3.9 \mu A$ | $70\mu A/V^2$  | 0.05      |       |          |
