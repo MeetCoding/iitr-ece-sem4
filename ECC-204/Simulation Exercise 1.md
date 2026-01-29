@@ -84,3 +84,7 @@ The calculated values of $\lambda$ and $K_p=\mu C_{ox}$ are nearly same to the v
 
 The value of KP is greater in NMOS than in PMOS because of difference in mobility of electrons and holes. The oxide capacitance is same for both as the dimensions and material of oxide is same. But electrons have more mobility than holes, so KP or NMOS is higher than PMOS.
 
+We can create a common circuit containing both NMOS and PMOS so we can compare them side-by-side (Inverting amplifiers have been used to invert the signal given to NMOS for the PMOS):
+
+![[Pasted image 20260129225626.png]]
+
