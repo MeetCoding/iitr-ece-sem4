@@ -35,11 +35,10 @@ Note that the values above are approximations and not exact.
 
 Repeating the experiment for PMOS:
 
-![[Pasted image 20260129170042.png]]
-
+![[Pasted image 20260129232929.png]]
 We find similar cutoff voltage at about $0.5V$.
 
-![[Pasted image 20260129170140.png]]
+![[Pasted image 20260129232817.png]]
 
 We also see similar cutoff values as that of NMOS.
 
