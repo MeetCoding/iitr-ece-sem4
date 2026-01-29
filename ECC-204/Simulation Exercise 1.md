@@ -80,3 +80,4 @@ The calculated values of $\lambda$ and $K_p=\mu C_{ox}$ are nearly same to the v
 .model TSMC_PMOS PMOS(Level=1 Vto=-0.45 KP=60u Lambda=0.05)
 ```
 
+Meaning of Level 1: 
