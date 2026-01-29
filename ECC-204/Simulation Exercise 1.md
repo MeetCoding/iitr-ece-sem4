@@ -15,3 +15,4 @@ We then add the simulation configuration to use a linear curve from $0V$ to $1.8
 
 ![[Pasted image 20260129153542.png]]
 
+However, the parameters of the `nmos4` are not adjusted according to the TSMC 180nm technology `nmos` mentioned in the question, so we add the model file for the TSMC `nmos` and plot the new graph:
