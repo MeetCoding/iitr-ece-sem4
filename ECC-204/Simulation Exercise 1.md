@@ -23,4 +23,9 @@ However, the parameters of the `nmos4` are not adjusted according to the TSMC 18
 
 We can see that the cutoff voltage is around $0.5V$.
 
-Changing the DC Sweep values for $V_{GS}$ (now $[0V,0.8V,1.4V]$) and $V_{DS}$ (now )
+Changing the DC Sweep values for $V_{GS}$ (now $[0V,0.8V,1.4V]$) and $V_{DS}$ (now linear from $0V-1.8V$), we get the following characteristic:
+
+![[Pasted image 20260129164158.png]]
+
+We can here clearly see the cutoff, linear/triode and saturation region.
+For $V_{GS}=0V$, the transistor is in cutoff region.
