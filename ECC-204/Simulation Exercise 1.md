@@ -14,3 +14,4 @@ We also set the width and length of the NMOS to the given values:
 
 ![[Pasted image 20260129151739.png|800]]
 
+
