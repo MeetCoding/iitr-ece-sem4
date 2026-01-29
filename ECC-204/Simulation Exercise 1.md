@@ -62,3 +62,10 @@ $\mu_nC_{ox}=\dfrac{2L}{W}\dfrac{I_D}{(V_{GS}-0.45)^2(1+0.0503V_{DS})}$
 We know, $I_D=452.26, V_{DS}=1.2V, V_{GS}=1.4V, L=0.18um, W=1um$
 Hence, we get, $\mu_nC_{ox}=1.7e-4=170\mu A/V^2$
 
+Marking values for PMOS, we get:
+
+| **I_D**  | $159.51\mu A$ | $161.05\mu A$ | $21.59\mu A$ |
+| -------- | ------------- | ------------- | ------------ |
+| **V_DS** | $1.2V$        | $1.4V$        | $1.2V$       |
+| **V_GS** | $1.4V$        | $1.4V$        | $0.8V$       |
+
