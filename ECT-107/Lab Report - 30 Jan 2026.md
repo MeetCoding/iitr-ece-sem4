@@ -51,3 +51,10 @@ Note that Delta is significant only in deep sleep while Gamma is significant onl
 | **Selective**   | Maintaining focus on a single stimulus while ignoring distractions.                 |
 | **Alternating** | Shifting focus between tasks that require different cognitive requirements.         |
 | **Divided**     | Responding simultaneously to multiple tasks or demands (true multitasking).         |
+
+| **Paradigm**       | **Key EEG Marker & Electrode Spot**                                       | **Method (The Protocol)**                                                                                                                     |
+| ------------------ | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Oddball**        | **P300** (Positive spike) at **$Pz, Cz$**                                 | You are presented with a sequence of repetitive stimuli (e.g., a "beep" every second). Occasionally, a different stimulus occurs (a "boop").  |
+| **Stroop Task**    | **N450** (Negative deflection) & **Frontal $\theta$** at **$Fz, F3, F4$** | Display color names (e.g., "BLUE") where the ink color is different (e.g., Green). User must name the ink color while ignoring the text.      |
+| **Task Switching** | **Switch-Related Negativity** & **$\alpha$ Suppression** at **$Fz, Pz$**  | Alternate between two different rules (e.g., odd/even vs. greater/less than 5). Measure the brain's "reconfiguration" time during the switch. |
+| **Dual-Task**      | **Decreased ERP Amplitude** (Global/Distributed)                          | User performs a primary task (e.g., tracking a cursor) while simultaneously responding to a secondary task (e.g., tone detection).            |
