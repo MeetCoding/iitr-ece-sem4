@@ -80,4 +80,5 @@ The calculated values of $\lambda$ and $K_p=\mu C_{ox}$ are nearly same to the v
 .model TSMC_PMOS PMOS(Level=1 Vto=-0.45 KP=60u Lambda=0.05)
 ```
 
-Meaning of Level 1: 
+**Meaning of Level 1:** MOSFETs can be of multiple Levels ranging from 1 to 70+. A Level 1 MOSFET is the simplest modelling of a MOSFET which follows the Square Law ideally without considering velocity saturation, vertical field mobility degradation and short-channel effects. A Level 1 MOSFET has 3 "hooks": Threshold voltage (Vto), product of mobility and oxide capacitance (KP) and Lambda.
+
