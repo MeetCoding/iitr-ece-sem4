@@ -27,6 +27,7 @@ To navigate the head and decide location of electrodes, the International 10-20 
 - **Even Numbers (2, 4, 6, 8)**: Right side of the brain.
 - **'z' (Zero)**: Midline electrodes (e.g., $Fz, Cz, Pz$).
 - **Larger Numbers**: Farther away from the center. (e.g., $C3$ is near the middle; $T7$ is farther out by the ear).
+
 # The EEG Spectrum
 Doing the frequency domain analysis of these brain signals, we can classify the signals into following categories:
 
