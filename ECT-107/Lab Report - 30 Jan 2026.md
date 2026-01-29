@@ -66,3 +66,6 @@ Note that during relaxation or low cognitive load, amplitudes are high as neuron
 | **Stroop Task**    | **N450** (Negative deflection) & **Frontal $\theta$** at **$Fz, F3, F4$** | Display color names (e.g., "BLUE") where the ink color is different (e.g., Green). User must name the ink color while ignoring the text.                         |
 | **Task Switching** | **Switch-Related Negativity** & **$\alpha$ Suppression** at **$Fz, Pz$**  | Alternate between two different rules (e.g., odd/even vs. greater/less than 5). Measure the brain's "reconfiguration" time during the switch.                    |
 | **Dual-Task**      | **Decreased ERP Amplitude** (Global/Distributed)                          | User performs a primary task while simultaneously responding to a secondary task (e.g., pressing SPACE when a circle turns red or when a target sound is heard). |
+After the test, two files must be studied:
+1. **EEG Files**: Contain the raw brain signals recorded during the task. 
+2. **Marker Files**: Include timestamps for task-specific events.
