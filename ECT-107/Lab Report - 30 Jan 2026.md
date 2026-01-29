@@ -1,5 +1,5 @@
 ***Meet Shah, 24116051***
-## How EEG (Electroencephalography) Works?
+# How EEG (Electroencephalography) Works?
  The brain is essentially neutral in charge, but individual neurons are charged and the neutrality is balanced by a equal and opposite charge on another neuron (formation of dipole).
  
  Pyramidal neurons are a cluster of neurons arranged parallel to each other and perpendicular to the scalp (near the scalp surface). The cluster of pyramidal neurons together gets positively or negatively charged.
@@ -10,7 +10,10 @@ In EEG, several such electrodes are connected and the potential difference can b
 
 In modern digital systems, we often use Common Average Reference (CAR), in which average of all electrodes on the head and use that calculated average as the reference for each individual electrode.
 
-## The EEG Spectrum
+# Types of EEG Setup
+EEG Systems can be "wet", meaning a conductive paste or gel $(AgC)
+
+# The EEG Spectrum
 Doing the frequency domain analysis of these brain signals, we can classify the signals into following categories:
 
 | **Band**             | **Frequency** | **Mental State**                                       |
