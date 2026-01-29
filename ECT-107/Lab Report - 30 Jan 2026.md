@@ -50,7 +50,7 @@ Note that Delta is significant only in deep sleep while Gamma is significant onl
 | **Alpha ($\alpha$)** | $20 - 100 \mu V$      | **Eyes Closed / Relaxation:** Best seen at the Occipital ($O1, O2$) electrodes. | **Eyes Open / Mental Math:** This is called "Alpha Block" or Desynchronization.          |
 | **Beta ($\beta$)**   | $5 - 20 \mu V$        | **Active Concentration / Anxiety:** Intense "busy" brain activity.              | **Deep Sleep:** Or when the motor cortex is at rest (SMR rhythm).                        |
 | **Gamma ($\gamma$)** | $2 - 10 \mu V$        | **Complex Problem Solving:** Peak cognitive integration ("Aha!" moments).       | **General States:** Usually buried under noise; very hard to see without SNR processing. |
-Note that during relax
+Note that during relaxation or low cognitive load, amplitudes are high as neurons are synchronized. In more cognitive load, neuron clusters perform multiple tasks and hence a neuron cluster may have multiple dipoles within it, so the overall amplitude of the cluster reduces.
 # Attention Parameters
 
 | **Type**        | **Description**                                                                     |
