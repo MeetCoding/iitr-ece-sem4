@@ -40,3 +40,6 @@ Doing the frequency domain analysis of these brain signals, we can classify the 
 | **Alpha ($\alpha$)** | $8 - 13$ Hz   | Relaxed, eyes closed, calm wakefulness.                |
 | **Beta ($\beta$)**   | $13 - 30$ Hz  | Active thinking, focus, alertness, or anxiety.         |
 | **Gamma ($\gamma$)** | $> 30$ Hz     | High-level information processing, problem solving.    |
+
+# Attention Parameters
+
