@@ -101,9 +101,13 @@ We use the following formulas:
 
 # Problem 3
 
+At constant $V_{GS}$, $I_D\propto W/L$
+
 $I_D$ vs $W$ graph:
 
 ![[Pasted image 20260130001906.png]]
 
 $I_D$ vs $L$ graph:
+
+![[Pasted image 20260130002225.png]]
 
