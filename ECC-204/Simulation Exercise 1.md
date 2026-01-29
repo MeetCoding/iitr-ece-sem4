@@ -72,3 +72,4 @@ Marking values for PMOS, we get:
 By doing the same calculation as done previously for NMOS, we will get:
 - $\lambda_p = 0.0512$
 - $\mu_pC_{ox}=70 \mu A/V^2$
+
