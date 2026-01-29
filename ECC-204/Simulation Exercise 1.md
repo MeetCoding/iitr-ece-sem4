@@ -99,3 +99,11 @@ We use the following formulas:
 | NMOS          | $60\mu A$     | $170\mu A/V^2$ | 0.05      | $342.857\mu \ohm^{-1}$ | $0.33M\ohm$  |
 | PMOS          | $21.37 \mu A$ | $70\mu A/V^2$  | 0.05      | $122.11\mu \ohm^{-1}$  | $0.935M\ohm$ |
 
+# Problem 3
+
+$I_D$ vs $W$ graph:
+
+![[Pasted image 20260130001906.png]]
+
+$I_D$ vs $L$ graph:
+
