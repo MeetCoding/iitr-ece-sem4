@@ -45,3 +45,9 @@ Note that Delta is significant only in deep sleep while Gamma is significant onl
 
 # Attention Parameters
 
+| **Type**        | **Description**                                                                     |
+| --------------- | ----------------------------------------------------------------------------------- |
+| **Focused**     | The ability to respond discretely to specific visual, auditory, or tactile stimuli. |
+| **Selective**   | Maintaining focus on a single stimulus while ignoring distractions.                 |
+| **Alternating** | Shifting focus between tasks that require different cognitive requirements.         |
+| **Divided**     | Responding simultaneously to multiple tasks or demands (true multitasking).         |
