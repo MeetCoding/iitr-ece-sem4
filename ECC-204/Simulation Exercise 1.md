@@ -4,9 +4,13 @@
 
 # Problem 1
 
-We start by placing a `nmos4` component on our LTSpice Schematic sheet, and connect a voltage source `V_DS` to its drain terminal and `V_GS` to its gate terminal. We short the source terminal and the body.
+We start by placing a `nmos4` component on our LTSpice Schematic sheet, and connect a voltage source `V_DS` to its drain terminal and `V_GS` to its gate terminal. We short the source terminal and the body:
 
 
-![[Pasted image 20260129151036.png|500]]
+![[Pasted image 20260129151036.png|800]]
 
-We also set the width and length of the NMOS to the given values
+We also set the width and length of the NMOS to the given values:
+
+
+![[Pasted image 20260129151739.png|800]]
+
