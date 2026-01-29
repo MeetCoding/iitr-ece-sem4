@@ -43,6 +43,14 @@ Doing the frequency domain analysis of these brain signals, we can classify the 
 | **Gamma ($\gamma$)** | $> 30$ Hz     | High-level information processing, problem solving.    |
 Note that Delta is significant only in deep sleep while Gamma is significant only during very high cognitive load. So in the EEG of an awake person, the most significant signals are Theta, Alpha and Beta.
 
+| **Band**             | **Typical Amplitude** | **High Amplitude Condition**                                                    | **Low Amplitude Condition**                                                              |
+| -------------------- | --------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Delta ($\delta$)** | $20 - 200 \mu V$      | **Deep Sleep (Stage N3):** The highest "natural" voltages in the brain.         | **Wakefulness:** Usually almost non-existent in healthy, alert adults.                   |
+| **Theta ($\theta$)** | $10 - 50 \mu V$       | **Drowsiness / Hypnagogia:** Transitions into sleep or deep "Zen" meditation.   | **High Alertness:** When you are acutely focused on an external threat or fast task.     |
+| **Alpha ($\alpha$)** | $20 - 100 \mu V$      | **Eyes Closed / Relaxation:** Best seen at the Occipital ($O1, O2$) electrodes. | **Eyes Open / Mental Math:** This is called "Alpha Block" or Desynchronization.          |
+| **Beta ($\beta$)**   | $5 - 20 \mu V$        | **Active Concentration / Anxiety:** Intense "busy" brain activity.              | **Deep Sleep:** Or when the motor cortex is at rest (SMR rhythm).                        |
+| **Gamma ($\gamma$)** | $2 - 10 \mu V$        | **Complex Problem Solving:** Peak cognitive integration ("Aha!" moments).       | **General States:** Usually buried under noise; very hard to see without SNR processing. |
+Note that during relax
 # Attention Parameters
 
 | **Type**        | **Description**                                                                     |
