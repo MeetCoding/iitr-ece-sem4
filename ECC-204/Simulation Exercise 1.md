@@ -50,4 +50,6 @@ We also know that for saturation, $V_{DS}>V_{GS}-V{Th}\implies V_{GS}<V_{DS}+0.4
 1. When $V_{DS}=0V\implies V_{GS}<0.45V$ (Not possible)
 2. When $V_{DS}=0.9V\implies V_{GS}<1.35V$
 3. When $V_{DS}=1.8V\implies V_{GS}<2.25V$
-Hence, we have 
+
+Hence, we have two variables, $\mu_nC_{ox}$ and $\lambda$ and two equations from (2) and (3).
+
