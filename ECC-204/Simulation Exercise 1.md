@@ -44,4 +44,5 @@ We find similar cutoff voltage at about $0.5V$.
 We also see similar cutoff values as that of NMOS.
 
 We know the relation: $I_D=\dfrac{1}{2}\mu_nC_{ox}\dfrac{W}{L}(V_{GS}-V_{Th})^2(1+\lambda_n V_{DS})$ for a NMOS transistor.
-
+We know that $V_{GS}>V_{Th}$, and $V_{Th}=0.45V$, so $V_{GS}>0.45V$
+We also know that for saturation, $V_{DS}>V_{GS}-V{Th}\implies $
