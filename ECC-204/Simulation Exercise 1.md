@@ -21,3 +21,5 @@ However, the parameters of the `nmos4` are not adjusted according to the TSMC 18
 
 ![[Pasted image 20260129154208.png]]
 
+We can see that the cutoff voltage is around $0.5V$.
+
