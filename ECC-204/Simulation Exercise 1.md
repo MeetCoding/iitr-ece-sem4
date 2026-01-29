@@ -82,3 +82,4 @@ The calculated values of $\lambda$ and $K_p=\mu C_{ox}$ are nearly same to the v
 
 **Meaning of Level 1:** MOSFETs can be of multiple Levels ranging from 1 to 70+. A Level 1 MOSFET is the simplest modelling of a MOSFET which follows the Square Law ideally without considering velocity saturation, vertical field mobility degradation and short-channel effects. A Level 1 MOSFET has 3 "hooks": Threshold voltage (Vto), product of mobility and oxide capacitance (KP) and Lambda.
 
+The value of KP is greater in NMOS than in PMOS because of difference in mobility of electrons and holes. The oxide capacitance is same for both as the dimensions and material of oxide is same. But electrons have more mobility than holes, so KP or NMOS is higher than PMOS.
