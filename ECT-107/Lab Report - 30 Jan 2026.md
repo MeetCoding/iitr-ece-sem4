@@ -14,6 +14,19 @@ In modern digital systems, we often use Common Average Reference (CAR), in which
 EEG Systems can be "wet", meaning a conductive paste or gel $(AgCl)$ is applied on the scalp and then the electrodes are placed which creates a low-impedance chemical bridge.
 In "dry" EEG Systems, spiky electrodes which poke through the hair are placed which have high impedance, so built-in amplifiers are used to amplifier the small signal.
 
+To navigate the head and decide location of electrodes, the International 10-20 System is used:
+### The Letters (Lobe/Region)
+- **Fp**: Frontal Pole (very front, just above the eyebrows)
+- **F**: Frontal Lobe (executive function, logic)
+- **C**: Central (the "midline"—note there is no "central lobe," this just marks the center)
+- **T**: Temporal Lobe (auditory, memory)
+- **P**: Parietal Lobe (sensory integration)
+- **O**: Occipital Lobe (vision processing)
+### The Numbers (Hemisphere & Distance)
+- **Odd Numbers (1, 3, 5, 7)**: Left side of the brain.
+- **Even Numbers (2, 4, 6, 8)**: Right side of the brain.
+- **'z' (Zero)**: Midline electrodes (e.g., $Fz, Cz, Pz$).
+- **Larger Numbers**: Farther away from the center. (e.g., $C3$ is near the middle; $T7$ is farther out by the ear).
 # The EEG Spectrum
 Doing the frequency domain analysis of these brain signals, we can classify the signals into following categories:
 
