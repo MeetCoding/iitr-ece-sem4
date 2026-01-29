@@ -11,7 +11,8 @@ In EEG, several such electrodes are connected and the potential difference can b
 In modern digital systems, we often use Common Average Reference (CAR), in which average of all electrodes on the head and use that calculated average as the reference for each individual electrode.
 
 # Types of EEG Setup
-EEG Systems can be "wet", meaning a conductive paste or gel $(AgC)
+EEG Systems can be "wet", meaning a conductive paste or gel $(AgCl)$ is applied on the scalp and then the electrodes are placed which creates a low-impedance chemical bridge.
+In "dry" EEG Systems, spiky electrodes which poke through the hair are placed which have high impedance, so built-in amplifiers are used to amplifier the small signal.
 
 # The EEG Spectrum
 Doing the frequency domain analysis of these brain signals, we can classify the signals into following categories:
