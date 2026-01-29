@@ -53,3 +53,7 @@ We also know that for saturation, $V_{DS}>V_{GS}-V{Th}\implies V_{GS}<V_{DS}+0.4
 
 Hence, we have two variables, $\mu_nC_{ox}$ and $\lambda$ and two equations from (2) and (3).
 
+| **V_GS** | $0.8V$    | $1.4V$    |
+| -------- | --------- | --------- |
+| **V_DS** | $1V$      | $1V$      |
+| **I_D**  | $10\mu A$ | $80\mu A$ |
