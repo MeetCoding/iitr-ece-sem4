@@ -56,7 +56,8 @@ Hence, we have two variables, $\mu_nC_{ox}$ and $\lambda$ and two equations from
 At same $V_{GS}$, $\dfrac{I_{D1}}{I_{D2}}=\dfrac{1+\lambda V_{DS1}}{1+\lambda V_{DS2}}$
 For $I_{D1}=452.26\mu A$ and $V_{DS1}=1.2V$
 For $I_{D2}=456.55\mu A$ and $V_{DS2}=1.4V$
-Putting the values, we get, $\lambda = 0.0564$
+Putting the values, we get, $\lambda = 0.0503$
 
 $\mu_nC_{ox}=\dfrac{2L}{W}\dfrac{I_D}{(V_{GS}-0.45)^2(1+0.0564V_{DS})}$
-We know, $I_D=81.32, V_{DS}=1.2V, V_{GS}=1.4V, L=$
+We know, $I_D=452.26, V_{DS}=1.2V, V_{GS}=1.4V, L=0.18um, W=1um$
+Hence, we get, $\mu_nC
