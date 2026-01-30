@@ -43,11 +43,13 @@ Doing the frequency domain analysis of these brain signals, we can classify the 
 | **Gamma ($\gamma$)** | $> 30$ Hz     | High-level information processing, problem solving.    |
 ![[Pasted image 20260130150945.png]]
 
-We note that Gamma band shows significant statistical difference in oddball task
+We note that Gamma band shows significant statistical difference in oddball task compared to other bands.
 
 Note that Delta is significant only in deep sleep while Gamma is significant only during very high cognitive load. So in the EEG of an awake person, the most significant signals are Theta, Alpha and Beta.
 
 ![[Pasted image 20260130151039.png]]
+
+Alpha band shows significant (but mild) statistical difference for stroop task.
 
 | **Band**             | **Typical Amplitude** | **High Amplitude Condition**                                                    | **Low Amplitude Condition**                                                              |
 | -------------------- | --------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -59,6 +61,8 @@ Note that Delta is significant only in deep sleep while Gamma is significant onl
 Note that during relaxation or low cognitive load, amplitudes are high as neurons are synchronized. In more cognitive load, neuron clusters perform multiple tasks and hence a neuron cluster may have multiple dipoles within it, so the overall amplitude of the cluster reduces.
 
 ![[Pasted image 20260130151105.png]]
+
+We notice that beta band shows no significant statistical difference for dual-task.
 # Attention Parameters
 
 | **Type**        | **Description**                                                                     |
