@@ -83,3 +83,8 @@ Now let's implement this circuit in LTSpice with calculated values:
 We will use the following model for TSMC 180nm design:
 ![[Pasted image 20260215223906.png]]
 
+Now we create the circuit using the calculated values:
+
+![[Pasted image 20260215224006.png]]
+
+![[Screenshot From 2026-02-15 22-03-58.png]]
