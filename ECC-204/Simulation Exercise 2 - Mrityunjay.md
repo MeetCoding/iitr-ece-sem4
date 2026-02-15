@@ -1,5 +1,4 @@
-![[Pasted image 20260215225210.png]]
-
+![[Pasted image 20260215231721.png]]
 AC analysis:
 
 ![[Pasted image 20260215225801.png]]
