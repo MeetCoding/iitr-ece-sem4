@@ -77,4 +77,9 @@ To meet the $10\text{Hz}$ to $1\text{MHz}$ sweep requirement, use **$C_1 = C_2 =
 #### **Overall Gain**
 
 $$A_{total} = A_{v1} \times A_{v2} = 10 \times 0.9 = \mathbf{9} \text{ (or } \approx 19.1 \text{ dB)}$$
-Now 
+
+Now let's implement this circuit in LTSpice with calculated values:
+
+We will use the following model for TSMC 180nm design:
+![[Pasted image 20260215223906.png]]
+
