@@ -87,7 +87,18 @@ Now we create the circuit using the calculated values:
 
 ![[Pasted image 20260215224006.png]]
 
-We add the following lines f
+We add the following lines to check for different amplitudes:
+![[Pasted image 20260215224335.png]]
+
+We also add {A} parameter in the AC current source.
+
+We get the following plot:
 
 ![[Screenshot From 2026-02-15 22-01-17.png]]
+
+Now we can use this line for the analysis for different frequencies and corresponding gain:
+![[Pasted image 20260215224450.png]]
+
+We get the following plot:
+
 ![[Screenshot From 2026-02-15 22-03-58.png]]
