@@ -8,15 +8,9 @@ Gain analysis with varying frequency:
 
 ![[Pasted image 20260215225254.png]]
 
-To fulfill the design requirements for the two-stage amplifier in the TSMC 180nm process, the following derivation outlines the necessary component sizing and biasing strategies.
-
-+1
-
+To fulfill the design requirements for the two-stage amplifier, the following derivation outlines the necessary component sizing and biasing strategies.
 ### 1. Initial Design Parameters
-
 The design is grounded in the following fixed constraints and assumed process characteristics for 180nm technology:
-
-+1
 
 - **Supply ($V_{DD}$):** $1.8\text{V}$
     
@@ -26,11 +20,7 @@ The design is grounded in the following fixed constraints and assumed process ch
     
 - **Operating Targets:** $V_{OV} = 0.15\text{V}$ and $R_L = 50\Omega$
     
-    +1
-    
-
----
-
+ 
 ### 2. Primary Gain Stage: Common-Gate Topology
 
 The first stage utilizes $M_2$ as the active amplifier and $M_1$ as a current source load.
@@ -59,10 +49,6 @@ $$R_D = \frac{A_{v1}}{g_{m2}} = \frac{10}{0.02\text{A/V}} = \mathbf{500\Omega}$$
     
 - **Current Source Bias ($V_{B0}$):** $V_{GS1} = \mathbf{0.65\text{V}}$
     
-    +1
-    
-
----
 
 ### 3. Buffer Stage: Common-Drain Configuration
 
@@ -80,10 +66,6 @@ $$0.9 = \frac{g_{m3} \cdot 50}{1 + g_{m3} \cdot 50} \implies \mathbf{g_{m3} = 18
     
 - **Quiescent Output ($V_{S3}$):** Specified $V_{G3} = 1.3\text{V}$. Thus, $V_{S3} = 1.3\text{V} - 0.65\text{V} = \mathbf{0.65\text{V}}$.
     
-    +1
-    
-
----
 
 ### 4. Transistor Geometry Summary
 
@@ -96,14 +78,10 @@ Device widths ($W$) are calculated using the square-law saturation model ($I_D =
 |**$M_1, M_2$**|1.5|20|333.3|**$333.3\mu\text{m}$**|
 |**$M_3, M_4$**|13.5|180|3000|**$3000\mu\text{m}$**|
 
----
-
 ### 5. Final Constraints and Performance
 
 - **Saturation Verification:** All devices maintain $V_{DS} > V_{OV}$ ($0.15\text{V}$), ensuring high-gain operation.
     
 - **AC Coupling:** To accommodate the $1\text{kHz}$ minimum frequency , capacitors must exceed $3.18\mu\text{F}$. We select **$100\mu\text{F}$** for flat frequency response down to $10\text{Hz}$.
-    
-    +2
     
 - **Calculated Total Gain:** $A_{total} = 10 \times 0.9 = \mathbf{9 \text{ (19.1 dB)}}$
