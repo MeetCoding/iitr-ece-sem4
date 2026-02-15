@@ -2,7 +2,7 @@
 
 AC analysis:
 
-![[Pasted image 20260215225233.png]]
+![[Pasted image 20260215225801.png]]
 
 Gain analysis with varying frequency:
 
