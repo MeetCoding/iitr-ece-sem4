@@ -87,4 +87,7 @@ Now we create the circuit using the calculated values:
 
 ![[Pasted image 20260215224006.png]]
 
+We add the following lines f
+
+![[Screenshot From 2026-02-15 22-01-17.png]]
 ![[Screenshot From 2026-02-15 22-03-58.png]]
