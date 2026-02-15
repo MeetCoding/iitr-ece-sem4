@@ -71,7 +71,6 @@ $$0.9 = \frac{g_{m3} \cdot 50}{1 + g_{m3} \cdot 50} \implies \mathbf{g_{m3} = 18
 
 Device widths ($W$) are calculated using the square-law saturation model ($I_D = \frac{1}{2} K_p \frac{W}{L} V_{OV}^2$):
 
-+1
 
 |**Device**|**ID​ (mA)**|**gm​ (mS)**|**W/L Ratio**|**Width (L=1μm)**|
 |---|---|---|---|---|
