@@ -16,64 +16,37 @@ The first stage consists of $M_2$ as the CG amplifier and $M_1$ acting as the cu
 #### Transconductance ($g_m$) and Input Resistance
 The small-signal input resistance for a CG amplifier is approximately $R_{in} \approx 1/g_{m2}$. Given $R_{in} = 50\Omega$:
 $$g_{m2} = \frac{1}{R_{in}} = \frac{1}{50} = \mathbf{0.02 \text{ A/V}} = 20 \text{ mS}$$
-#### **B.Drain Resistance ($R_D$)
-
+#### Drain Resistance ($R_D$)
 The gain of the CG stage ($A_{v1}$) is given by $g_{m2} \cdot R_D$. Given $A_{v1} = 10$:
-
 $$R_D = \frac{A_{v1}}{g_{m2}} = \frac{10}{0.02} = \mathbf{500 \Omega}$$
-
-#### **C. Drain Current ($I_D$)**
-
+#### Drain Current ($I_D$)
 Using the relationship $g_m = \frac{2I_D}{V_{OV}}$:
 
 $$I_{D1,2} = \frac{g_{m2} \cdot V_{OV}}{2} = \frac{0.02 \cdot 0.15}{2} = \mathbf{1.5 \text{ mA}}$$
 
-#### **D. DC Voltages and Biasing ($V_{B0}, V_{B1}$)**
-
-- **Voltage drop across $R_D$ ($V_{RD}$):**
-    
-    $$V_{RD} = I_{D2} \cdot R_D = 1.5\text{mA} \cdot 500\Omega = \mathbf{0.75 \text{ V}}$$
-    
+#### DC Voltages and Biasing ($V_{B0}, V_{B1}$)
+- **Voltage drop across $R_D$ ($V_{RD}$):**$$V_{RD} = I_{D2} \cdot R_D = 1.5\text{mA} \cdot 500\Omega = \mathbf{0.75 \text{ V}}$$
 - **Drain voltage of $M_2$ ($V_{D2}$):**
-    
-    $$V_{D2} = V_{DD} - V_{RD} = 1.8\text{V} - 0.75\text{V} = \mathbf{1.05 \text{ V}}$$
-    
+$$V_{D2} = V_{DD} - V_{RD} = 1.8\text{V} - 0.75\text{V} = \mathbf{1.05 \text{ V}}$$
 - **Gate-Source voltage ($V_{GS2}$):**
-    
-    $$V_{GS2} = V_{to} + V_{OV} = 0.5\text{V} + 0.15\text{V} = 0.65\text{V}$$
-    
-- **Source voltage of $M_2$ ($V_{S2}$):** Assuming $M_1$ requires $V_{DS1} \geq V_{OV} = 0.15\text{V}$ to stay in saturation, we set **$V_{S2} = 0.25\text{V}$** to provide headroom.
-    
-- **Bias Voltages:**
-    
-    $$V_{B1} = V_{S2} + V_{GS2} = 0.25\text{V} + 0.65\text{V} = \mathbf{0.9 \text{ V}}$$
-    
-    $$V_{B0} = V_{S1} + V_{GS1} = 0\text{V} + 0.65\text{V} = \mathbf{0.65 \text{ V}}$$
-    
+$$V_{GS2} = V_{to} + V_{OV} = 0.5\text{V} + 0.15\text{V} = 0.65\text{V}$$
 
----
+- **Source voltage of $M_2$ ($V_{S2}$):** Assuming $M_1$ requires $V_{DS1} \geq V_{OV} = 0.15\text{V}$ to stay in saturation, we set **$V_{S2} = 0.25\text{V}$** to provide headroom.
+- **Bias Voltages:**
+$$V_{B1} = V_{S2} + V_{GS2} = 0.25\text{V} + 0.65\text{V} = \mathbf{0.9 \text{ V}}$$
+$$V_{B0} = V_{S1} + V_{GS1} = 0\text{V} + 0.65\text{V} = \mathbf{0.65 \text{ V}}$$
 
 ### **3. Second Stage: Common-Drain (CD) Amplifier Design**
 
 The second stage consists of $M_3$ as the CD amplifier (Source Follower) and $M_4$ as the current source.
-
-+1
-
-#### **A. Transconductance ($g_{m3}$)**
-
+#### Transconductance ($g_{m3}$)
 The gain of the CD stage is $A_{v2} = \frac{g_{m3}R_L}{1 + g_{m3}R_L}$. Given $A_{v2} = 0.9$ and $R_L = 50\Omega$:
-
-+1
-
 $$0.9 = \frac{g_{m3} \cdot 50}{1 + g_{m3} \cdot 50} \implies 0.9 + 45g_{m3} = 50g_{m3} \implies \mathbf{g_{m3} = 0.18 \text{ A/V}} = 180 \text{ mS}$$
 
-#### **B. Drain Current ($I_{D3}$)**
-
+#### Drain Current ($I_{D3}$)
 Using the same overdrive $V_{OV} = 0.15\text{V}$:
-
 $$I_{D3,4} = \frac{g_{m3} \cdot V_{OV}}{2} = \frac{0.18 \cdot 0.15}{2} = \mathbf{13.5 \text{ mA}}$$
-
-#### **C. DC Voltages ($V_{S3}$)**
+#### DC Voltages ($V_{S3}$)
 
 - The gate of $M_3$ is biased at **$1.3\text{V}$** per specifications.
     
