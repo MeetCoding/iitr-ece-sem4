@@ -47,21 +47,11 @@ $$0.9 = \frac{g_{m3} \cdot 50}{1 + g_{m3} \cdot 50} \implies 0.9 + 45g_{m3} = 50
 Using the same overdrive $V_{OV} = 0.15\text{V}$:
 $$I_{D3,4} = \frac{g_{m3} \cdot V_{OV}}{2} = \frac{0.18 \cdot 0.15}{2} = \mathbf{13.5 \text{ mA}}$$
 #### DC Voltages ($V_{S3}$)
-
 - The gate of $M_3$ is biased at **$1.3\text{V}$** per specifications.
-    
 - **Source voltage ($V_{S3}$):**
-    
-    $$V_{S3} = V_{G3} - V_{GS3} = 1.3\text{V} - 0.65\text{V} = \mathbf{0.65 \text{ V}}$$
-    
-
----
-
+$$V_{S3} = V_{G3} - V_{GS3} = 1.3\text{V} - 0.65\text{V} = \mathbf{0.65 \text{ V}}$$
 ### **4. Transistor Sizing ($W/L$)**
-
 Calculated using the saturation current equation: $I_D = \frac{1}{2} K_p \frac{W}{L} V_{OV}^2$ (ignoring $\lambda$ for hand calcs).
-
-+1
 
 |**Transistor**|**ID​ (mA)**|**gm​ (mS)**|**Calculated W/L**|**Final W (L=1μm)**|
 |---|---|---|---|---|
@@ -70,35 +60,21 @@ Calculated using the saturation current equation: $I_D = \frac{1}{2} K_p \frac{W
 |**$M_3$**|$13.5$|$180$|$\frac{2 \cdot 13.5\text{m}}{400\mu \cdot 0.15^2} = \mathbf{3000}$|$3000\mu\text{m}$|
 |**$M_4$**|$13.5$|$180$|$\frac{2 \cdot 13.5\text{m}}{400\mu \cdot 0.15^2} = \mathbf{3000}$|$3000\mu\text{m}$|
 
----
-
 ### **5. Saturation and Capacitor Constraints**
 
 **Saturation Checks ($V_{DS} \geq V_{GS} - V_{th}$)**
-
 - **$M_1$:** $V_{DS1} = 0.25\text{V} > 0.15\text{V}$ (**OK**)
-    
 - **$M_2$:** $V_{DS2} = (1.05 - 0.25) = 0.8\text{V} > 0.15\text{V}$ (**OK**)
-    
 - **$M_3$:** $V_{DS3} = (1.8 - 0.65) = 1.15\text{V} > 0.15\text{V}$ (**OK**)
-    
 - **$M_4$:** $V_{DS4} = 0.65\text{V} > 0.15\text{V}$ (**OK**)
-    
-
 #### **Coupling Capacitors ($C_1, C_2$)**
-
 To ensure the pole frequency is below the minimum frequency of **$1\text{kHz}$**:
-
 $$f_p = \frac{1}{2\pi RC} \ll 1000\text{Hz}$$
-
 For $R = 50\Omega$:
 
-+1
-
 $$C \gg \frac{1}{2\pi \cdot 1000 \cdot 50} \approx 3.18 \mu\text{F}$$
-
 To meet the $10\text{Hz}$ to $1\text{MHz}$ sweep requirement, use **$C_1 = C_2 = 100\mu\text{F}$**.
-
 #### **Overall Gain**
 
 $$A_{total} = A_{v1} \times A_{v2} = 10 \times 0.9 = \mathbf{9} \text{ (or } \approx 19.1 \text{ dB)}$$
+Now 
