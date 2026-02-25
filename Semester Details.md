@@ -4,6 +4,14 @@
 - [ESP32 Course](https://lastminuteengineers.com/getting-started-with-esp32/)
 
 
+### MTE Study Plan
+- ECC-101: Tutorials
+- DAI-101: DAI_MERGED_MTE.pdf
+- SEO-101: Tutorials
+- ECC-202: Notes
+- ECC-204: Notes & Tuts
+- DAE-101: Slides & HW
+
 | **Subject** | **Marks Division**                                                             |
 | ----------- | ------------------------------------------------------------------------------ |
 | EEE-101     | 25 MTE, 40 ETE, 30 Quiz/Tut, 5 Attendance                                      |
